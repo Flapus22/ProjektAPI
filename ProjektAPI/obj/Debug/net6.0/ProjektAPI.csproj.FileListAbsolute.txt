@@ -63,3 +63,4 @@ D:\Projekty\Visual\Semestr 5\Ptuswph\ProjektAPI\ProjektAPI\bin\Debug\net6.0\Flue
 D:\Projekty\Visual\Semestr 5\Ptuswph\ProjektAPI\ProjektAPI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 D:\Projekty\Visual\Semestr 5\Ptuswph\ProjektAPI\ProjektAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\Projekty\Visual\Semestr 5\Ptuswph\ProjektAPI\ProjektAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Projekty\Visual\Semestr 5\Ptuswph\ProjektAPI\ProjektAPI\bin\Debug\net6.0\Newtonsoft.Json.dll

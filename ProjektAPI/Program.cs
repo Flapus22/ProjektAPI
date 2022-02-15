@@ -74,6 +74,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.UseFileServer();
 app.Run();
 

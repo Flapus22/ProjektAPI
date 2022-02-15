@@ -22,7 +22,7 @@ namespace ProjektAPI.Controllers
         }
 
         [HttpPost("login")]
-        public ActionResult Login([FromBody]Login login)
+        public ActionResult<string> Login([FromBody]Login login)
         {
             string token = _accountService.GenerateJwt(login);
             return Ok(token);
