@@ -69,7 +69,6 @@ namespace ProjektAPI.Services
             {
                 new Claim(ClaimTypes.NameIdentifier,user.IdUser.ToString()),
                 new Claim(ClaimTypes.Name, $"{user.FirstName} {user.LastName}"),
-                new Claim("DateOfBirth",user.DateOfBirth.Value.ToString("yyyy-MM-dd")),
             };
 
             if(!string.IsNullOrEmpty(user.Nationality))

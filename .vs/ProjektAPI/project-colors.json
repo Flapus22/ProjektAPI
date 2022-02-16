@@ -10,7 +10,22 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Różne pliki",
       "ColorIndex": -1
+    },
+    "61936150-f5ab-42c2-904c-1ab8780c4a4e": {
+      "ProjectGuid": "61936150-f5ab-42c2-904c-1ab8780c4a4e",
+      "DisplayName": "IO.Swagger",
+      "ColorIndex": 1
+    },
+    "c9da89c1-0abf-45f5-8d72-25bcc813345c": {
+      "ProjectGuid": "c9da89c1-0abf-45f5-8d72-25bcc813345c",
+      "DisplayName": "ClientApp",
+      "ColorIndex": 2
+    },
+    "88770c84-c2a7-41c5-aaef-5594e70042c9": {
+      "ProjectGuid": "88770c84-c2a7-41c5-aaef-5594e70042c9",
+      "DisplayName": "IO.Swagger",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }

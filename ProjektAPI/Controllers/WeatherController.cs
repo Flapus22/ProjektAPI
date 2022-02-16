@@ -7,7 +7,7 @@ namespace ProjektAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [Authorize]
+    //[Authorize]
     public class WeatherController : ControllerBase
     {
         private readonly ILogger<WeatherController> _logger;

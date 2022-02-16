@@ -11,7 +11,7 @@ class Program
     {
         var service = new AccountApi("https://localhost:7047/");
         var serviceWeather = new WeatherApi("https://localhost:7047/");
-        ApiClient apiClient = new ApiClient("https://localhost:7047/");
+        //ApiClient apiClient = new ApiClient("https://localhost:7047/");
 
         var token = service.ApiAcountLoginPost(new Login()
         {
@@ -20,8 +20,9 @@ class Program
         });
         //conf.DefaultHeader("Authorization", $"Bearer {token}");
         var conf = new Configuration();
-        conf.AddApiKey("Authorization", $"Bearer {token}");
-        apiClient.Configuration = conf;
+        conf.AddDefaultHeader("Authorization", $"Bearer {token}");
+        conf.BasePath = "https://localhost:7047/";
+        ApiClient apiClient = new (conf);
         var listaPogody = serviceWeather.WeatherGet();
 
         var item = serviceWeather.WeatherIdGet(1);
@@ -31,5 +32,7 @@ class Program
             Console.WriteLine(item.ToString());
         }
         Console.ReadLine();
+
+        //while(int.TryParse())
     }
 }
